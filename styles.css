@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+
+body{
+	font-family: arial;
+}
+
+.header{
+	background: #fff;
+
+}
+
+.logo {
+    margin-left: 125px;
+}
+
+.contenido{
+	background-image: url(images/fondo.png);
+	background-size: cover;
+	text-align: center;
+	height: 600px;
+}
+
+.texto{
+	margin-top: 150px; 
+}
+
+.big-words{
+	color:#00284F;
+	font-size: 40px;
+	font-weight: bold;
+	background: rgba(255, 255, 255, .2);
+	width: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.small-words{
+	color:#00284F;
+	font-size: 18px;
+	background: rgba(255, 255, 255, .5);
+	width: 50%;
+    display: block;
+	margin: 0 auto 20px auto;
+
+}
+
+.footer{
+	background: #31528f;
+	height: 100px;
+}
+
+#codigo-pdf {
+    width: 559px;
+    height: 45px;
+    margin: 35px;
+    border-radius: 6px;
+}
+
+
+.btn.btn-primary.btn-lg {
+     background: #31528f;
+    border-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    opacity: 0.9;
+}
+
+.btn.btn-primary.btn-lg:hover {
+	background: rgb(0, 191, 213);
+	border-color: rgb(0, 191, 213);
+
+
+}
+
+
+.texto-olvido{
+	color:#00284F;
+	font-size: 18px;
+	background: rgba(255, 255, 255, .5);
+	width: 15%;
+    display: block;
+	margin: 40px auto 20px auto;
+
+}
+
+.texto-olvido:hover{
+	text-decoration: underline;
+	opacity: 0.8;
+	cursor: pointer;
+	font-weight: bold;
+	width: 20%;
+
+}
+
+
+.olvido-codigo .form-control{
+	width: 559px !important;
+    height: 45px;
+    border-radius: 6px;
+    display: block;
+    margin:0 auto;
+
+}
+
+
+input#olvido-codigo {
+    width: 534px;
+    margin: 0 40px 0px 20px;
+    height: 45px;
+}
+
+
+.codigo{
+	display: none;
+}
+
+
+
+
+
+@media (max-width: 1000px) and (min-width: 770px){
+
+	.logo {
+	margin-left: 0px;
+     text-align: center;
+	}
+
+		.big-words{
+		padding: 15px;
+		width: 70%;
+
+	}
+
+	.small-words{
+		width: 70%;
+
+	}
+
+	.texto {
+	    margin-top: 0px;
+	}
+
+}
+
+
+
+@media (max-width: 770px) and (min-width: 480px){
+
+	.logo {
+	margin-left: 0px;
+     text-align: center;
+	}
+
+	.contenido{
+	background-image: url(images/fondo-ipad.png);
+	background-size: cover;
+	text-align: center;
+
+	}
+
+	.texto {
+	    margin-top: 0px;
+	}
+
+	.big-words{
+		padding: 15px;
+		width: 60%;
+
+	}
+
+	.small-words{
+		width: 60%;
+
+	}
+
+}
+
+
+@media (max-width: 530px) {
+
+		.contenido{
+	background-image: url(images/fondo-cel.png);
+	background-size: cover;
+	text-align: center;
+
+	}
+
+	.texto {
+	    margin-top: 0px;
+	}
+
+	.logo {
+	margin-left: 0px;
+     text-align: center;
+	}
+
+	#codigo-pdf {
+    width: 400px;
+    height: 45px;
+    margin: 30px auto 30px auto;
+	}
+
+	.big-words{
+		padding: 15px;
+		width: 90%;
+
+	}
+
+	.small-words{
+		width: 90%;
+
+	}
+
+	.btn.btn-primary.btn-lg {
+    background: #31528f;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    opacity: 0.9;
+	}
+
+
+
+
+}
